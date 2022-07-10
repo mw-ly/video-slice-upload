@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <p>
+      <progress id="uploadProgress" value="0"></progress>
+    </p>
+    <p>
+      <input type="file" id="videoUploader" value="选择视频" />
+    </p>
+    <p>
+      <span id="uploadInfo"></span>
+    </p>
+    <p>
+      <button id="startBtn">上传视频</button>
+      <button id="pauseBtn" style="display: none">暂停上传</button>
+    </p>
+    <p id="videoContainer"></p>
+  </div>
+  
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
